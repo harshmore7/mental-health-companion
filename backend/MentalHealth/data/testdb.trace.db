@@ -1,0 +1,12 @@
+2025-06-27 14:49:29.217910+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MOOD_ENTRY" not found (this database is empty); SQL statement:
+select me1_0.id,me1_0.date,me1_0.mood,me1_0.note from mood_entry me1_0 order by me1_0.date desc [42104-232]
+2025-06-27 14:49:39.332240+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MOOD_ENTRY" not found (this database is empty); SQL statement:
+select me1_0.id,me1_0.date,me1_0.mood,me1_0.note from mood_entry me1_0 order by me1_0.date desc [42104-232]
+2025-06-27 14:49:44.359258+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MOOD_ENTRY" not found (this database is empty); SQL statement:
+insert into mood_entry (date,mood,note,id) values (?,?,?,default) [42104-232]
+2025-06-27 14:49:49.168178+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MOOD_ENTRY" not found (this database is empty); SQL statement:
+select me1_0.id,me1_0.date,me1_0.mood,me1_0.note from mood_entry me1_0 order by me1_0.date desc [42104-232]
